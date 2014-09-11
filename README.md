@@ -11,3 +11,7 @@ Thoughts about neural activity
 >>> for n in neurons:                                                                                                                                                                                                                                                         
 ...   for ne in neurons:                                                                                                                                                                                                                                                      
 ...     connections.append({"from":n, "to":ne, "strength":random.random()})   
+
+>>> layers = []                                                                                                                                                                                                                                                               
+>>> for i in range(6):                                                                                                            
+...   layers.append({"layer_id":i}) 
